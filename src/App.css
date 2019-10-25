@@ -1,18 +1,50 @@
 .first {
-  background-image: url('https://66.media.tumblr.com/d31f02f8884493683e642bc6a8c6dfd3/tumblr_oeqj0nsmaJ1u78hylo2_500.jpg');
+  background-image: url('https://66.media.tumblr.com/ed1b05038f8638d87cbf9a97f6307c3b/tumblr_nvyvq6GwAr1u7awiro1_1280.jpg');
   background-size: cover;
   height: 100vh;
   width: 100wh;
   }
   h1{
-    top: 80%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 5rem;
-    color: black;
-  }
-  .Profile{
-  float: right; 
     
+    top: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 7rem;
+    color: black;
+    
+  }
+  h2{
+    font-size: 5rem;
+    margin: 0%;
 
   }
   
+  
+
+  .Projects{
+    width: 150px;
+    padding: 25px;
+    display: inline-flex;
+
+  }
+  img{
+    width: 300px;
+    padding: 110px;
+    float: left;
+    margin: 0%;
+  }
+p{
+    margin-block-start: 3em;
+    margin-block-end: 20em;
+    margin-inline-start: 50px;
+    margin-inline-end: 0px;
+}
+  
+.AboutMe{
+  width:1000px;
+}
+
+.Profile{
+  margin-block-start: 8em;
+  margin-inline-start: 80px;
+  
+}

@@ -5,7 +5,10 @@ class CoverPage extends Component {
     return (
         <div className='first' >
             <img></img>
-            <h1>Lesly Zuñiga</h1>
+            <center>
+            <h1>  
+                Lesly Zuñiga</h1>
+                </center>
         </div>
     );
   }

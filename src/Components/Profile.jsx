@@ -7,12 +7,24 @@ class Profile extends Component {
         return (
             <div className='Profile'>
                  <img className='Me' src= 'https://data.whicdn.com/images/212364680/original.jpg' ></img>
-                 <h1>Sobre mi </h1>
-                <Card>Soy Desarrolladora Web Frot-End, 
-                 fan de la creatividad y organización. 
-                 Con gusto por soluciones innovadoras 
-                 para crear una mejor experiencia
-                  y optimizar resultados.</Card>
+              
+                <Card className='AboutMe'>
+                    <h2>Sobre mi </h2>
+                    <p>Soy Desarrolladora Web Front-End,  me encanta la tecnologia,
+                    las cosas bonitas y utiles !.  
+                    Solo soy un diseñador de experiencia de usuario que ama la 
+                    vida, hace lo que disfruta y se divierte en el camino. Soy 
+                    una persona libre que busca brindar soluciones creativas a 
+                    este mundo lleno de oportunidades. Creo en la mejora continua,
+                 buscando experiencias inolvidables para aprender a ser una mejor
+                  persona en todo lo que hago y con los que me rodean. Siempre
+                   trato de innovar porque me gusta la sensación de crear algo
+                    que nadie ha hecho. Soy increíblemente creativo para resolver 
+                    proyectos todos los días y la vida misma. Me gusta el chai latte, 
+                    el sándwich de jamón con queso azul, el vino tinto y la buena compañía también.     
+                  
+                    </p>
+                    </Card>
                  
             </div>
         )

@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from './Components/Nav';
 import Profile from './Components/Profile';
-import ListItem from './Components/Projects';
+import Projects from './Components/Projects';
 import CoverPage from './Components/Start';
 import './App.css';
 
@@ -11,6 +11,7 @@ function App() {
     <div className="App">
      <CoverPage/>
      <Profile/>
+     <Projects/>
       </div>
   );
 }

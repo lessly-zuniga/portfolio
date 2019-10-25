@@ -1,23 +1,39 @@
+
 import React from 'react'
-import { Card } from 'semantic-ui-react'
+import { Card, Icon } from 'semantic-ui-react'
+import '../App.css';
+import { Component } from 'react';
 
-const src = 'https://www.eluniversal.com.mx/sites/default/files/styles/f03-651x400/public/_105225134_051701037.jpg?itok=WW6v449g'
 
-const CardExampleColored = () => (
-  <Card.Group itemsPerRow={4}>
-    <Card color='red' image={src} />
-    <Card color='orange' image={src} />
-    <Card color='yellow' image={src} />
-    <Card color='olive' image={src} />
-    <Card color='green' image={src} />
-    <Card color='teal' image={src} />
-    <Card color='blue' image={src} />
-    <Card color='violet' image={src} />
-    <Card color='purple' image={src} />
-    <Card color='pink' image={src} />
-    <Card color='brown' image={src} />
-    <Card color='grey' image={src} />
-  </Card.Group>
-)
+class Projects extends Component {
+    render () {
+        return (
+            <div className='Projects'>
+              <Card
+              
+                    image= 'https://66.media.tumblr.com/d31f02f8884493683e642bc6a8c6dfd3/tumblr_oeqj0nsmaJ1u78hylo2_500.jpg'
+                    header='Elliot Baker'
+                    meta='Friend'
+                    description='Elliot is h his cat.'
+                   
+                />
 
-export default CardExampleColored
+                <Card
+                    image='https://66.media.tumblr.com/d31f02f8884493683e642bc6a8c6dfd3/tumblr_oeqj0nsmaJ1u78hylo2_500.jpg'
+                    header='Elliot Baker'
+                    meta='Friend'
+                    description='Elliot is a .'
+                   
+                />
+                  <Card
+                    image='https://66.media.tumblr.com/d31f02f8884493683e642bc6a8c6dfd3/tumblr_oeqj0nsmaJ1u78hylo2_500.jpg'
+                    header='Elliot Baker'
+                    meta='Friend'
+                    description='Elliot is a sound .'
+                   
+                />    
+            </div>
+        )
+    }
+}
+export default Projects;
