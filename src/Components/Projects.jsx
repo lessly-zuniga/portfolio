@@ -1,39 +1,109 @@
-
 import React from 'react'
-import { Card, Icon } from 'semantic-ui-react'
+//import {  Icon, Image } from 'semantic-ui-react'
 import '../App.css';
 import { Component } from 'react';
+import { Link } from "react-router-dom"
+// import ReactCardFlip from 'react-card-flip';
+// //import { start } from 'repl';
+// import CoverPage from './Start';
+// import Profile from './Profile';
 
 
 class Projects extends Component {
     render () {
         return (
-            <div className='Projects'>
-              <Card
+      
+<div className='blockCard' >
+            <div className='card' >
+               <div className='card-image'></div>  
+               <div className='card-text'>
+                    <span className='date'> 4 days ago</span>
+                    <h2>Post one</h2>  
+                    <p>ccbdcblidcsbckjskjc</p> 
+                </div> 
+                <div className='card-stats'>
+                    <div className='stat'>
+                    <div className='type'>4m</div>
+                    <div className='type'>read</div>
+                </div>
+               
+                <div className='stat'>
+                   
+                    <div className='type'>read</div>
+                    <div className='type'>read</div>
+                
+                </div> 
+                <div className='stat'>
+                    <div className='type'>read</div>
+                    <div className='type'>read</div>
+                
+                </div> 
               
-                    image= 'https://66.media.tumblr.com/d31f02f8884493683e642bc6a8c6dfd3/tumblr_oeqj0nsmaJ1u78hylo2_500.jpg'
-                    header='Elliot Baker'
-                    meta='Friend'
-                    description='Elliot is h his cat.'
-                   
-                />
+                </div>  
+                
+            </div>
 
-                <Card
-                    image='https://66.media.tumblr.com/d31f02f8884493683e642bc6a8c6dfd3/tumblr_oeqj0nsmaJ1u78hylo2_500.jpg'
-                    header='Elliot Baker'
-                    meta='Friend'
-                    description='Elliot is a .'
+            <div className='card' >
+               <div className='card-image'></div>  
+               <div className='card-text'>
+                    <span className='date'> 4 days ago</span>
+                    <h2>Post one</h2>  
+                    <p>ccbdcblidcsbckjskjc</p> 
+                </div> 
+                <div className='card-stats'>
+                    <div className='stat'>
+                    <div className='type'>4m</div>
+                    <div className='type'>read</div>
+                </div>
+               
+                <div className='stat'>
                    
-                />
-                  <Card
-                    image='https://66.media.tumblr.com/d31f02f8884493683e642bc6a8c6dfd3/tumblr_oeqj0nsmaJ1u78hylo2_500.jpg'
-                    header='Elliot Baker'
-                    meta='Friend'
-                    description='Elliot is a sound .'
+                    <div className='type'>read</div>
+                    <div className='type'>read</div>
+                
+                </div> 
+                <div className='stat'>
+                    <div className='type'>read</div>
+                    <div className='type'>read</div>
+                
+                </div> 
+              
+                </div>  
+                
+            </div>
+
+            <div className='card' >
+               <div className='card-image'></div>  
+               <div className='card-text'>
+                    <span className='date'> 4 days ago</span>
+                    <h2>Post one</h2>  
+                    <p>ccbdcblidcsbckjskjc</p> 
+                </div> 
+                <div className='card-stats'>
+                    <div className='stat'>
+                    <div className='type'>4m</div>
+                    <div className='type'>read</div>
+                </div>
+               
+                <div className='stat'>
                    
-                />    
+                    <div className='type'>read</div>
+                    <div className='type'>read</div>
+                
+                </div> 
+                <div className='stat'>
+                    <div className='type'>read</div>
+                    <div className='type'>read</div>
+                
+                </div> 
+              
+                </div>  
+                
+            </div>
+
             </div>
         )
     }
 }
+
 export default Projects;

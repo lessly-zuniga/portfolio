@@ -1,9 +1,265 @@
+/* li{
+  padding: 2px 7px 2px 7px;
+  color: #666;
+  background-color: #eeeeee;
+  border: 1px solid #ccc;
+  text-decoration: none;
+} */
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:500');
+.Navbar{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* background:url(https://pp.userapi.com/c841122/v841122831/327e/nHt-92F6yc4.jpg) no-repeat top center #efeff1; */
+  background-size:cover;
+}
+.thx{
+  position: fixed;
+  left:50%;
+  transform:translateX(-50%);
+  bottom: 15px;
+}
+nav{
+  width: 100%;
+  position: fixed;
+  top:90px;
+  text-align:center;
+  z-index: 100000000;
+  box-shadow:  5px 5px 115px rgb(0, 0,0);
+}
+
+nav li > a{
+  font-family: 'Oswald', sans-serif;
+  font-weight:500;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:#16151b;
+  margin:0 15px;
+  font-size:16px;
+  letter-spacing:1px;
+  position:relative;
+  display:inline-block;
+}
+nav li > a:before{
+  content:'';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background:#16151b;
+  top:47%;
+  animation:out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+}
+nav li > a:hover:before{
+  animation:in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+
+}
+@keyframes in{
+  0%{
+    width: 0;
+    left:0;
+    right:auto;
+  }
+  100%{
+    left:0;
+    right:auto;
+    width: 100%;
+  }
+}
+@keyframes out{
+  0%{
+    width:100%;
+    left: auto;
+    right: 0;
+  }
+  100%{
+    width: 0;
+    left: auto;
+    right: 0;
+  }
+}
+@keyframes show{
+  0%{
+    opacity:0;
+    transform:translateY(-10px);
+  }
+  100%{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
+
+
+
+
+
+.Navbar{
+  width: 100%;
+  position: fixed;
+  top: -16px;
+  text-align:center;
+  height: 2rem;
+  z-index: 100000;
+  background-color: rgb(199, 194, 194);
+
+}
+/* En resoluciones mayores a 450px */
+@media screen and (min-width: 450px) {
+  /* a {
+     display: none;
+  } */
+  li {
+     display: inline-block;
+  }
+  ul {
+     display: block !important;
+  }
+}
+
+/* En resoluciones menores a 450px */
+@media screen and (max-width: 449px){
+  a {
+     display: block;
+  }
+  li {
+     display: block;
+  }
+}
+
+.git-icon {
+  width: 50px;
+  height: 50px;
+  
+  
+}
+.lkd {
+  width: 50px;
+  height: 50px;
+  margin-left: 50%;
+  
+}
+.contactMe{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10%;
+  
+  
+}
+
+
+
+
+
+.blockCard{
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  scroll-margin-bottom: 1%;
+  scroll-margin-block-start: 1%;
+ 
+}
+
+
+.card{
+  margin: 30px;
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 210px 210px 80px;
+  grid-template-areas: "image" "text" "stats";
+
+  font-family:  roboto;
+  border-radius: 18px;
+  background: white;
+  /* box-shadow:  5px 5px 115px rgb(0, 0,0); */
+  box-shadow: 2px 2px 40px rgb(0, 0,0);
+  text-align: center;
+
+  transition: 0.
+  5s ease;
+  cursor: pointer;
+}
+
+.card-image{
+  grid-area :image;
+  background: url('https://66.media.tumblr.com/ed1b05038f8638d87cbf9a97f6307c3b/tumblr_nvyvq6GwAr1u7awiro1_1280.jpg');
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+
+}
+.card-text{
+  grid-area : text ;
+  margin: 25px;
+}
+.card-text .date{
+  color: rgb(255, 7,110);
+  font-size: 13px;
+}
+
+.card-stats h2{
+   margin-top: 0px;
+   font-size: 28px;
+  
+  }
+.card-stats{
+grid-area: stats;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr ;
+grid-template-rows: 1fr;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+background: rgb(255, 7,110);
+
+}
+.card-stats .stat{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10x;
+  color:white;
+
+}
+.card-stats .type{
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+
+}
+
+.card-stats .value{
+  font-size: 22px;
+  font-weight: 500px;
+
+}
+
+.card:hover {
+  transform: scale(1.2);
+  box-shadow: 5px 5px 15px rgb(0, 0,0);
+}
+
+
+
+
+
+
+
+
+
 .first {
   background-image: url('https://66.media.tumblr.com/ed1b05038f8638d87cbf9a97f6307c3b/tumblr_nvyvq6GwAr1u7awiro1_1280.jpg');
   background-size: cover;
   height: 100vh;
   width: 100wh;
   }
+
   h1{
     
     top: 100%;
@@ -12,26 +268,29 @@
     color: black;
     
   }
-  h2{
+  h3{
+  
     font-size: 5rem;
-    margin: 0%;
+    font-family: ;
 
+    
   }
   
-  
+ 
 
+ 
   .Projects{
     width: 150px;
     padding: 25px;
     display: inline-flex;
 
   }
-  img{
+  /* img{
     width: 300px;
     padding: 110px;
     float: left;
     margin: 0%;
-  }
+  } */
 p{
     margin-block-start: 3em;
     margin-block-end: 20em;
@@ -39,12 +298,112 @@ p{
     margin-inline-end: 0px;
 }
   
+/* style={{display: "flex", alignItems:"center", justifyContent:"center", flexDirection:"row",  */
+
 .AboutMe{
-  width:1000px;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 1000px;
+    position: relative;
+}
+.Me{
+  margin-top: 10%;
+  width: 25rem;
+
 }
 
 .Profile{
-  margin-block-start: 8em;
+  position: relative;
+  margin-block-start: 7em;
   margin-inline-start: 80px;
   
+}
+
+.txtaboutme{
+
+  position: absolute;
+    text-align: center;
+    width: 50%;
+    top: 55%;
+}
+
+.blockMe{
+  position: relative;
+  width: 100%;
+  display: flex;
+  margin-bottom: 10%;
+  margin-top: 12%;
+
+}
+
+
+
+
+
+
+
+
+.front{
+  position: relative;
+  top: 0;
+  right: 0;
+}
+.imagcard{
+  position: absolute;
+  width: 100px;
+  padding: 0px;
+  float: left;
+  margin: 0%;
+  
+}
+
+
+.flip-box {
+  position: relative;
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  padding: 40px;
+ margin: 50px;
+  display: flex;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  position: absolute;
+  background-color: #bbb;
+  color: rgb(54, 2, 2);
+}
+
+.flip-box-back {
+  position: relative;
+  top: 0;
+  background-color: coral;
+  color: white;
+  transform: rotateY(180deg);
 }

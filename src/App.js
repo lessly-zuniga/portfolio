@@ -1,19 +1,33 @@
 import React from 'react';
-import NavBar from './Components/Nav';
 import Profile from './Components/Profile';
+import Start from './Components/Start';
+import ContactMe from './Components/ContactMe';
 import Projects from './Components/Projects';
-import CoverPage from './Components/Start';
+import Navbar from './Components/Nav';
+
+
 import './App.css';
+
+
+
 
 
 function App() {
   return (
     <div className="App">
-     <CoverPage/>
-     <Profile/>
-     <Projects/>
+      
+      
+     <Navbar/>
+   
+     
+    
       </div>
+      
   );
+
+  
+            
+          
 }
 
 export default App;
