@@ -11,6 +11,8 @@ class Profile extends Component {
            
                  
                 <div className='AboutMe'>
+
+                    
                     
                    <div className=' blockMe'>
                    <img className='Me' src= 'https://files.slack.com/files-pri/T0NNB6T0R-FQ82WQVUZ/lesly.png' ></img>

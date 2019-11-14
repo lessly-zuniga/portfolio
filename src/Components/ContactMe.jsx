@@ -20,7 +20,14 @@ class ContactMe extends Component {
                       </a>
                       </div>
 
-                      {/* <div className='CV'> 
+                      <div className='slack'>
+                        {/* agregar liga  a slack */}
+                      <a href='https://www.linkedin.com/in/lesly-zu%C3%B1iga-727137192/'>
+                        <img src='https://image.flaticon.com/icons/svg/2111/2111674.svg'  className='slack' alt='Linkedin'/>
+                      </a>
+                      </div>
+
+                      {/* slack(?)  y CV (?)<div className='CV'> 
                       <img src="../images/git.png" alt='CV'/>
                       <a href='https://www.linkedin.com/in/lesly-zu%C3%B1iga-727137192/'></a>
                       </div> */}

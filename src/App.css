@@ -1,3 +1,39 @@
+.SkillsLeft {
+display: flex;
+align-items: left;
+justify-content: center;
+flex-direction: column;
+
+}
+.SkillsRight {
+  display: flex;
+  align-items: center;
+  justify-content: fixed;
+  flex-direction: column;
+  
+  }
+/* style={{display: "flex", alignItems:"center", justifyContent:"center", flexDirection:"row",  */
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100|Cinzel&display=swap');
+
+
+
+
+
+h1{
+  
+  font-size: 5rem;
+
+  font-family: 'Cinzel', serif;
+  
+}
+
+
+
+
+
 /* li{
   padding: 2px 7px 2px 7px;
   color: #666;
@@ -43,6 +79,7 @@ nav li > a{
   position:relative;
   display:inline-block;
 }
+
 nav li > a:before{
   content:'';
   position: absolute;
@@ -106,6 +143,8 @@ nav li > a:hover:before{
   background-color: rgb(199, 194, 194);
 
 }
+
+
 /* En resoluciones mayores a 450px */
 @media screen and (min-width: 450px) {
   /* a {
@@ -135,11 +174,17 @@ nav li > a:hover:before{
   
   
 }
-.lkd {
+.lkd  {
   width: 50px;
   height: 50px;
   margin-left: 50%;
   
+}
+
+.slack{
+  width: 50px;
+  height: 50px;
+  margin-left:4% ;
 }
 .contactMe{
   display: flex;
@@ -260,21 +305,16 @@ background: rgb(255, 7,110);
   width: 100wh;
   }
 
-  h1{
+  /* h1{
     
     top: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 7rem;
     color: black;
     
-  }
-  h3{
-  
-    font-size: 5rem;
-    font-family: ;
+  } */
 
-    
-  }
+ 
   
  
 
@@ -298,7 +338,6 @@ p{
     margin-inline-end: 0px;
 }
   
-/* style={{display: "flex", alignItems:"center", justifyContent:"center", flexDirection:"row",  */
 
 .AboutMe{
  
