@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from "react";
 //import './Prueba.scss';
-import '../App.css';
+import '../Skills.css';
 import Projects from './Projects';
 import Profile from './Profile';
 import ContactMe from './ContactMe';
@@ -11,30 +11,25 @@ class Skills extends Component {
 
   render() {
     return (
-        <Fragment>
+        <Fragment className='Skills'>
          
-         <h1>  
-                Skills!
-            </h1>
-        <div className='SkillsLeft' >
-          
-            
-            <div>HTML 5</div>
-            <div>Javascript</div>
-            <div>CSS 3</div>
-            <div>React JS</div>
-           
-
-
-
-             
-        </div>  
-        <div className='SkillsRight'>
-        <div>Mongo DB</div>
-            <div>Firebase</div>
-            <div>Express</div>
-            <div>Node.Js</div>
-        </div>
+            <h3>SKILLS</h3>
+            <ul>
+              <div className='SkillsLeft' >
+                  <li>HTML 5</li>
+                  <li>Javascript</li>
+                  <li>CSS 3</li>
+                  <li>React JS</li> 
+                  <li>Mongo DB</li>
+                  <li>Firebase</li>
+                  <li>Express</li>
+                  <li>Node.Js</li>
+                  <li>React Native</li>
+                  <li>Express</li>
+                  <li>Git</li>
+                  
+              </div>
+            </ul>
 
         </Fragment>
     );

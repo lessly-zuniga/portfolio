@@ -1,11 +1,11 @@
 //import React, { Component, NavBrand,NavMenu  } from "react";
 import React from 'react';
 import Profile from './Profile';
-import '../App.css';
+import '../Nav.css';
 import Start from './Start';
 import Projects from './Projects';
 //import ContactMe from './Components/ContactMe';
-import { BrowserRouter as Router, Switch, Route, NavLink } from "react-router-dom";
+import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
 import ContactMe from './ContactMe';
 import Skills from './Skills';
 

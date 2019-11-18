@@ -3,7 +3,7 @@ import React, { Component } from "react";
 
 
 //import { Card } from "semantic-ui-react";
-import '../App.css';
+import '../Profile.css';
 
 class Profile extends Component {
     render () {
@@ -18,9 +18,12 @@ class Profile extends Component {
                    <img className='Me' src= 'https://files.slack.com/files-pri/T0NNB6T0R-FQ82WQVUZ/lesly.png' ></img>
 
                          <div className='blocktxt'>
-                         <h3>Sobre mi </h3>
+                         <h2>Sobre mi </h2>
                             
-                            <div className='txtaboutme' width='20px;'>
+                            <div className='txtaboutme' >
+
+                            Soy Desarrolladora Web Front.End, 
+
                             Soy Desarrolladora Web Front-End,  me encanta la tecnologia,
                             las cosas bonitas y utiles !.  
                             Solo soy un diseñador de experiencia de usuario que ama la 
