@@ -15,7 +15,9 @@ class Projects extends Component {
       
 <div className='blockCard' >
             <div className='card' >
-               <div className='card-image'></div>  
+               <div className='card-image'>
+                   
+               </div>  
                <div className='card-text'>
                     <span className='date'> 4 days ago</span>
                     <h2>Post one</h2>  

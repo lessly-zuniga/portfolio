@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100|Cinzel&display=swap');
 
+.first {
+ 
+   background-image: url('https://i.pinimg.com/originals/25/6a/61/256a615de3ff2aca2ecf7c9ffdb2482b.jpg');
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   
 
+  
+
+}
 /* .first{
   position: relative;
   background-image: url('http://4.bp.blogspot.com/-NZqnu8epO28/VYmQ4IsiAGI/AAAAAAADu3Q/Iyk1GppRyKc/s1600/Paisajes%2Bde%2Bmar%2B%252840%2529.gif');
