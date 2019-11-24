@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import '../App.css'
+import '../ContactMe.css'
 //import Imagit from 'C:\Users\Laboratoria\Desktop\Laboratoria\porfolio\src\images';
  
 class ContactMe extends Component {

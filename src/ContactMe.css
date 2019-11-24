@@ -1,0 +1,62 @@
+
+@media (min-width: 821px) {
+.git-icon {
+    width: 50px;
+    height: 50px;
+    
+    
+  }
+  .lkd  {
+    width: 50px;
+    height: 50px;
+    margin-left: 50%;
+    
+  }
+  
+  .slack {
+    width: 50px;
+    height: 50px;
+    margin-left: 25px;
+}
+  .contactMe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block-start: 10%;
+    margin-bottom: 2%;
+    
+    
+  }
+
+}
+@media (min-width: 300px) and (max-width: 820px){
+  .git-icon {
+    width: 50px;
+    height: 50px;
+    
+    
+  }
+  .lkd  {
+    width: 50px;
+    height: 50px;
+    margin-left: 50%;
+    
+  }
+  
+  .slack {
+    width: 50px;
+    height: 50px;
+    margin-left: 25px;
+}
+  .contactMe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block-start: 10%;
+    margin-bottom: 2%;
+    
+    
+  }
+
+
+}
