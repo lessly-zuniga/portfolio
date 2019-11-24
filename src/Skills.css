@@ -1,9 +1,25 @@
 
+@media (min-width: 821px) {
+
+    body {
+ 
+   
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 98vw;
+        background-position: center center;
+        background-attachment: fixed;
+        height: 100%;
+        width: 98%;
+    
+    }
+
 .SkillsContend{
-    width: 250%;
-    height: 500%;
+    height: 100%;
+    width: 70%;
     justify-content: center;
     align-items: center;
+    text-align: center;
    
 }
 
@@ -21,18 +37,19 @@ h3 {
     
     width: 20%;
     height: 20%;
-    justify-content: space-between
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
-    ;
-   
 }
 
 .SkillsLeft{
-width: 125%;
+width: 100%;
 }
 
 .SkillsCenter{
-   width: 125%;
+   width: 100%;
 }
 
 .SkillsLeft li {
@@ -40,6 +57,7 @@ width: 125%;
     text-align: -webkit-match-parent;
     padding: 5%;
     list-style: none;
+    
 
 }
 
@@ -58,11 +76,31 @@ width: 125%;
     list-style: none;
 
 }
+ul{
+    display: grid;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 1em;
+    grid-template-columns: 1fr 1fr;
+    
+        display: grid;
+        grid-row-gap: 1em;
+        text-align: center;
+        font-size: 20px;
+       
+        color: gray;
+        text-align: center;
+    
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+}
 
 
-
-
-/* 
+ 
 @media only screen and (max-width: 400px) and (min-width: 301px){
 
     ul{
@@ -95,4 +133,4 @@ width: 125%;
         color: gray;
     }
     
-} */
+} 

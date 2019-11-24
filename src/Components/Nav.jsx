@@ -15,8 +15,7 @@ import Skills from './Skills';
 export default class Navbar extends React.Component {
         render() {    
           return (
-            <div>
-              <Router>
+            <Router>
                 <nav className="Nav">
                   <ul className="Navbar">
                     <li><NavLink to='/'>Inicio</NavLink></li>
@@ -35,7 +34,7 @@ export default class Navbar extends React.Component {
                  
                    
                 </Router>
-            </div>
+    
           );
         }
       }
