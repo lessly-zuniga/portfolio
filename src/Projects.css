@@ -119,7 +119,7 @@ background: rgb(255, 7,110);
 
 }
 .card-stats .type{
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 300;
   text-transform: uppercase;
 
@@ -145,10 +145,10 @@ background: rgb(255, 7,110);
   }
 
   p {
-    /* margin-block-start: 3em; */
-    /* margin-block-end: 20em; */
-    /* margin-inline-start: 50px; */
-    /* margin-inline-end: 0px; */
+     margin-block-start: 2em; 
+     margin-block-end: 2em; 
+     margin-inline-start: 0px; 
+     margin-inline-end: 0px; 
 }
 
 
@@ -214,10 +214,10 @@ background: rgb(255, 7,110);
   transform: rotateY(180deg);
 }
 
-h2 {
+h5 {
   font-family: 'Cinzel', serif;
   align-items: center;
-  font-size: 100%;
+  font-size: 120%;
   justify-items: center;
   text-align: center;
   font-weight: 200;

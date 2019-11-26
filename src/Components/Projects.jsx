@@ -20,26 +20,33 @@ class Projects extends Component {
                </div>  
                <div className='card-text'>
                   
-                    <h2>Lab Notes</h2>  
-                    <p>Notas a donde quiera que vayas </p> 
-                    <span className='date'>Firebase</span>
-                    <span className='date'>React js</span>
+                    <h5>Lab Notes</h5>  
+                    <p> Que no se te vayan las ideas!  <br></br>
+                        Notas a donde quiera que vayas </p> 
+                    <span className='date'>
+                        App creada con React js para interfaz
+                         y con Firebase como base de datos </span>
+                    {/* <span className='date'>React js</span> */}
                 </div> 
                 <div className='card-stats'>
-                    <div className='stat'>
-                    <div className='type'>React js</div>
-                    <div className='type'>Firebase</div>
-                </div>
-               
                 <div className='stat'>
-                   
-                    <div className='type'>read</div>
-                    <div className='type'>read</div>
+                    <div className='type'>Repo</div>
+                    {/* <div className='type'>read</div> */}
                 
                 </div> 
                 <div className='stat'>
-                    <div className='type'>read</div>
-                    <div className='type'>read</div>
+                
+                <div className='type'>
+                <a href='https://github.com/lessly-zuniga?tab=repositories'>
+                      <img src="https://img.icons8.com/dusk/2x/push-notifications.png" className='git-icon' name='github'/>
+                    </a>
+                </div>
+                {/* <div className='type'>read</div> */}
+            
+            </div>  
+            <div className='stat'>
+                    <div className='type'>DEMO</div>
+                    {/* <div className='type'>read</div> */}
                 
                 </div> 
               
@@ -50,25 +57,33 @@ class Projects extends Component {
             <div className='card' >
                <div className='card-image'></div>  
                <div className='card-text'>
-               <h2>Lab Notes</h2>  
-                    <p>Notas a donde quiera que vayas </p> 
-                    <span className='date'>App aqui!</span> 
+               <h5>Movie Challenge</h5>   
+                    <p>Miles de peliculas y series 
+                        para que la diversion nunca termine!
+                    </p> 
+                    <span className='date'>App creada con Javascript 
+                    y Css puro en menos de 3 dias !
+                    </span> 
                 </div> 
                 <div className='card-stats'>
-                    <div className='stat'>
-                    <div className='type'>4m</div>
-                    <div className='type'>read</div>
-                </div>
-               
                 <div className='stat'>
-                   
-                    <div className='type'>read</div>
-                    <div className='type'>read</div>
+                    <div className='type'>Repo</div>
+                    {/* <div className='type'>read</div> */}
                 
                 </div> 
                 <div className='stat'>
-                    <div className='type'>read</div>
-                    <div className='type'>read</div>
+                
+                <div className='type'>
+                <a href='https://github.com/lessly-zuniga?tab=repositories'>
+                      <img src="https://img.icons8.com/doodle/2x/hdtv.png" className='git-icon' name='github'/>
+                    </a>
+                </div>
+                {/* <div className='type'>read</div> */}
+            
+            </div>  
+            <div className='stat'>
+                    <div className='type'>DEMO</div>
+                    {/* <div className='type'>read</div> */}
                 
                 </div> 
               
@@ -79,25 +94,31 @@ class Projects extends Component {
             <div className='card' >
                <div className='card-image'></div>  
                <div className='card-text'>
-               <h2>Lab Notes</h2>  
-                    <p>Notas a donde quiera que vayas </p> 
-                    <span className='date'>App aqui!</span>
+               <h5>MD-LINKS</h5>   
+                    <p>Encuentra todos los enlaces que necesitas 
+                        en un texto super rapido! </p> 
+                    <span className='date'>App diseñada para programadores,
+                    creada con Javascript y Node.js</span>
                 </div> 
                 <div className='card-stats'>
-                    <div className='stat'>
-                    <div className='type'>4m</div>
-                    <div className='type'>read</div>
-                </div>
-               
                 <div className='stat'>
-                   
-                    <div className='type'>read</div>
-                    <div className='type'>read</div>
+                    <div className='type'>Repo</div>
+                    {/* <div className='type'>read</div> */}
                 
                 </div> 
                 <div className='stat'>
-                    <div className='type'>read</div>
-                    <div className='type'>read</div>
+                
+                <div className='type'>
+                <a href='https://github.com/lessly-zuniga?tab=repositories'>
+                      <img src="https://img.icons8.com/plasticine/2x/browse-folder.png" className='git-icon' name='github'/>
+                    </a>
+                </div>
+                {/* <div className='type'>read</div> */}
+            
+            </div>  
+            <div className='stat'>
+                    <div className='type'>DEMO</div>
+                    {/* <div className='type'>read</div> */}
                 
                 </div> 
               
