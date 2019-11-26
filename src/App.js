@@ -6,7 +6,7 @@ import Projects from './Components/Projects';
 import Navbar from './Components/Nav';
 
 
-import './App.css';
+
 
 
 

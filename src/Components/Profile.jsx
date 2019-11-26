@@ -1,4 +1,5 @@
 import React, { Component, Fragment} from "react";
+import Me from '../Images/Me.jpg'
 
 
 
@@ -12,7 +13,7 @@ class Profile extends Component {
         <Fragment>
                 
                    <div className=' blockMe'>
-                        <img className='photoAbout' src= 'https://files.slack.com/files-pri/T0NNB6T0R-FQ82WQVUZ/lesly.png' />
+                        <img className='photoAbout'/>
                         <h2>Sobre mi </h2>
                                 
                         <div className='txtaboutme' >

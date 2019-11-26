@@ -5,63 +5,41 @@ body, #root {
 }
 
 /* 
-
-.Skills{
-justify-content: center;
-justify-items: center;
-position: center;
-display: inline;
-}
-
-
-.SkillsLeft li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  line-height: 1.25;
-  font-size: 1.15rem;
-  font-weight: 400;
-  margin-bottom: 32px;
-  margin-right: 10%;
-  box-sizing: border-box;
-  display: list-item;
-  text-align: -webkit-match-parent;
-  -webkit-font-smoothing: antialiased;
-
-
-}
-.SkillsRight li {
-  list-style: none;
-  line-height: 1.25;
-  font-size: 1.15rem;
-  font-weight: 400;
-  margin-left: 10%;
-  margin-bottom: 32px;
-  box-sizing: border-box;
-  display: list-item;
-  text-align: -webkit-match-parent;
-  -webkit-font-smoothing: antialiased;
-
-  } */
-/* style={{display: "flex", alignItems:"center", justifyContent:"center", flexDirection:"row",  */
-
-
-
-
-
-
-
-
-/* li{
+ li{
   padding: 2px 7px 2px 7px;
   color: #666;
   background-color: #eeeeee;
   border: 1px solid #ccc;
   text-decoration: none;
-} */
+}  */
 
 
+.git-icon {
+  width: 50px;
+  height: 50px;
+  
+  
+}
+.lkd  {
+  width: 50px;
+  height: 50px;
+  margin-left: 50%;
+  
+}
 
+.slack{
+  width: 50px;
+  height: 50px;
+  margin-left:4% ;
+}
+.contactMe{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10%;
+  
+  
+}
 
 
 
@@ -158,28 +136,6 @@ background: rgb(255, 7,110);
   box-shadow: 5px 5px 15px rgb(0, 0,0);
 }
 
-
-
-
-
-
-
-
-
-
-  /* h1{
-    
-    top: 100%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 7rem;
-    color: black;
-    
-  } */
-
- 
-  
- 
-
  
   .Projects{
     width: 150px;
@@ -187,64 +143,13 @@ background: rgb(255, 7,110);
     display: inline-flex;
 
   }
-  /* img{
-    width: 300px;
-    padding: 110px;
-    float: left;
-    margin: 0%;
-  } */
-p{
-    margin-block-start: 3em;
-    margin-block-end: 20em;
-    margin-inline-start: 50px;
-    margin-inline-end: 0px;
+
+  p {
+    /* margin-block-start: 3em; */
+    /* margin-block-end: 20em; */
+    /* margin-inline-start: 50px; */
+    /* margin-inline-end: 0px; */
 }
-/*   
-
-.AboutMe{
- 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    width: 1000px;
-    position: relative;
-}
-.Me{
-  margin-top: 10%;
-  width: 25rem;
-
-}
-
-.Profile{
-  position: relative;
-  margin-block-start: 7em;
-  margin-inline-start: 80px;
-  
-}
-
-.txtaboutme{
-
-  position: absolute;
-    text-align: center;
-    width: 50%;
-    top: 55%;
-}
-
-.blockMe{
-  position: relative;
-  width: 100%;
-  display: flex;
-  margin-bottom: 10%;
-  margin-top: 12%;
-
-}
-
- */
-
-
-
-
 
 
 .front{
@@ -307,4 +212,15 @@ p{
   background-color: coral;
   color: white;
   transform: rotateY(180deg);
+}
+
+h2 {
+  font-family: 'Cinzel', serif;
+  align-items: center;
+  font-size: 100%;
+  justify-items: center;
+  text-align: center;
+  font-weight: 200;
+  margin: 0%;
+  padding: 0%;
 }
