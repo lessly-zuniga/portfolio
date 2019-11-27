@@ -37,7 +37,7 @@
         
         }
     .blockMe{
-        justify-content: center;
+        justify-content: space-around;
     }
     .txtaboutme{
         width: 70%;
@@ -58,8 +58,8 @@
         margin: 0%;
         padding: 0%;
         background-repeat: no-repeat;
-        background-size: 50%;
-        height: 100%;
+        background-size: 40%;
+        height: 20%;
         width: 50%;
         position: relative;
     
@@ -67,37 +67,40 @@
     
     .blockMe{
         box-shadow: 5px 5px 15px rgb(0, 0,0);
-        width: 1%;
-        height: 90%;
-        
-        display: table-row;
-        
-        position: relative;
-       
-        clear: both;
+        display: flex;
+        justify-content: space-around;
+        width: 70%;
+        height: 10%;
+        margin: 0 auto;
+
+    }
+    .myPhoto{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+
+    }
+    .txtAboutMe{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        padding: 0 10px;
     }
     h2 {
-        float: right;
-        /* vertical-align: middle; */
-        /* box-sizing: border-box; */
-        /* padding-top: 0px; */
-        /* padding-bottom: 0px; */
-        width: 50%;
-        /* max-width: 800px; */
+        width: 70%;
         float: center;
-        /* clear: both; */
         font-family: 'Cinzel', serif;
-        /* align-items: center; */
         font-size: 300%;
-        /* justify-items: center; */
         text-align: center;
         font-weight: 400;
         margin: 0%;
         padding: 0%;
     }
     
-
-    .photoAbout{
+    img{
+        width: 400px;
+    }
+    /* .photoAbout{
         vertical-align: middle;
         float: left;
     vertical-align: text-top;
@@ -115,7 +118,7 @@
 
 }
     .txtaboutme {
-        /* vertical-align: middle; */
+      
         width: 40%;
         float: right;
         font-family: kqhy;
@@ -125,17 +128,12 @@
         color: #999999;
         font-family: kqhy;
         font-size: 20px;
-        /* font-style: normal; */
-        /* font-weight: 400; */
+        
         line-height: 28px;
-        /* padding-bottom: 20px; */
-        /* padding-top: 0px; */
-        /* text-align: center; */
-        /* text-transform: none; */
-        /* clear: both; */
+       
         word-break: break-word;
-        /* margin-right: 15%; */
-    }
+        
+    } */
 
     
 }

@@ -149,7 +149,7 @@ h3 {
   
     color: gray;
     
-    display: inline-flex;
+    display: flex;
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 20%;

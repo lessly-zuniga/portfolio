@@ -17,10 +17,8 @@ class Skills extends Component {
            <h4>SKILLS</h4>
            <div className='IconList'>
               <img src="https://img.icons8.com/color/2x/mongodb.png" className='IconList' name='React js'/>
-              <img src="https://img.icons8.com/color/2x/html-5.png" className='IconList' name='React js'/>
               <img src="https://img.icons8.com/color/48/000000/javascript.png" className='IconList' name='React js'/>
               <img src="https://img.icons8.com/color/2x/nodejs.png" className='IconList' name='React js'/>
-              <img src="https://image.flaticon.com/icons/svg/81/81323.svg" className='IconList' name='React js'/>
               <img src="https://img.icons8.com/color/2x/npm.png" className='IconList' name='React js'/>
               <img src="https://img.icons8.com/plasticine/100/000000/react.png" className='IconList' name='React js'/>
               <img src="https://img.icons8.com/color/2x/css3.png" className='IconList' name='React js'/>
