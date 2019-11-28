@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://lessly-zuniga.github.io/portfolio/",
+  "homepage": "https://lessly-zuniga.github.io/portfolio/",
   "dependencies": {
     "react": "^16.10.1",
     "react-card-flip": "^0.8.1",
