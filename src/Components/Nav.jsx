@@ -5,7 +5,7 @@ import '../Nav.css';
 import Start from './Start';
 import Projects from './Projects';
 //import ContactMe from './Components/ContactMe';
-import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
+import {  HashRouter, Route, NavLink } from "react-router-dom";
 import ContactMe from './ContactMe';
 import Skills from './Skills';
 
@@ -15,7 +15,7 @@ import Skills from './Skills';
 export default class Navbar extends React.Component {
         render() {    
           return (
-            <Router>
+            <HashRouter>
                 <nav className="Nav">
                   <ul className="Navbar">
                     <li><NavLink to='/'>Inicio</NavLink></li>
@@ -33,7 +33,7 @@ export default class Navbar extends React.Component {
                   <Route exact path="/contactme" component={ContactMe} />
                  
                    
-                </Router>
+                </HashRouter>
     
           );
         }
