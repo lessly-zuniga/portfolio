@@ -16,7 +16,7 @@ class Projects extends Component {
 <div className='blockCard' >
             <div className='card' >
                <div className='card-image'>
-                   
+                  <img src="https://i.ibb.co/ZXswjwX/plans.gif" alt=""/>
                </div>  
                <div className='card-text'>
                   
@@ -55,7 +55,9 @@ class Projects extends Component {
             </div>
 
             <div className='card' >
-               <div className='card-image'></div>  
+               <div className='card-image'>
+                <img src="https://i.ibb.co/c2Hbwjp/gigilgif.gif" alt=""/>    
+               </div>  
                <div className='card-text'>
                <h5>Movie Challenge</h5>   
                     <p>Miles de peliculas y series 
@@ -92,7 +94,9 @@ class Projects extends Component {
             </div>
 
             <div className='card' >
-               <div className='card-image'></div>  
+               <div className='card-image'>
+                <img src="https://i.ibb.co/Qfm2jSx/mdlinksgiff.gif" alt=""/>
+               </div>  
                <div className='card-text'>
                <h5>MD-LINKS</h5>   
                     <p>Encuentra todos los enlaces que necesitas 

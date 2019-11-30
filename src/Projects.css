@@ -79,9 +79,9 @@ body, #root {
 
 .card-image{
   grid-area :image;
-  background: url('https://66.media.tumblr.com/ed1b05038f8638d87cbf9a97f6307c3b/tumblr_nvyvq6GwAr1u7awiro1_1280.jpg');
+  background: url('https://i.ibb.co/ZXswjwX/plans.gif');
   border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-top-right-radius: 15px;  
   background-size: cover;
 
 }
