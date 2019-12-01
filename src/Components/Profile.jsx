@@ -21,8 +21,8 @@ class Profile extends Component {
                                 
                                 <div className='txtaboutme' >
                                         Soy Desarrolladora Web Front-End, Fui analista en una empresa de soportes bancarios
-                                        donde me encargaba de el control y funcionamiento de todos los ATM en Mèxico, 
-                                        en mi tiempo libre me gusta nadar en cascadas, acampar y hacer 
+                                        donde me encargaba de el control y funcionamiento de todos los ATM en Mèxico. 
+                                        En mi tiempo libre me gusta nadar en cascadas, acampar y hacer 
                                         ejercicio al aire libre, leer un buen libro y tocar guitarra.
 
                                 </div>

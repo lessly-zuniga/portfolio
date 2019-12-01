@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
 @media (min-width: 300px) and (max-width: 820px){
  
   ul {
@@ -46,7 +45,7 @@
     }
       
       nav li > a{
-        font-family: 'Cinzel', serif;
+        font-family:  roboto;
         font-weight: 500;
         text-transform: uppercase;
         text-decoration: none;
@@ -202,13 +201,13 @@
     }
       
       nav li > a{
-        font-family: 'Amatic SC', cursive;
+        font-family: 'Fredericka the Great', cursive;
         font-weight:600;
         text-transform:uppercase;
         text-decoration:none;
-        color:#16151b;
+        color: #16151b;
         margin:0 15px;
-        font-size:30px;
+        font-size:20px;
         letter-spacing:9px;
         position:relative;
         display:inline-block;

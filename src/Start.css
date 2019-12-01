@@ -1,8 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Give+You+Glory&display=swap');
-
-
-
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
 @media (min-width: 300px) and (max-width: 820px){
   body {
  
@@ -33,7 +29,7 @@ h1 {
       color: transparent;
       -moz-background-clip: text;
       -webkit-background-clip: text;
-      font-family: 'Give You Glory', cursive;
+      font-family: 'Fredericka the Great', cursive;
       font-size: 120px;
       font-style: italic;
       font-variant: normal;
@@ -71,16 +67,16 @@ body {
 
 h1 { 
   
-   background-image: url(https://media.giphy.com/media/zNs50pdTIaav6/source.gif);
+   background-image: url(https://media.giphy.com/media/EH6jf9dn0hRAs/giphy.gif);
   
       background-size: cover;
       color: transparent;
       -moz-background-clip: text;
       -webkit-background-clip: text;
-      font-family: 'Give You Glory', cursive;
+      font-family: 'Staatliches', cursive;
       font-size: 120px;
-      font-style: italic;
-      font-variant: normal;
+      font-style: cursive;
+      
       text-align: center;
       
 } 
