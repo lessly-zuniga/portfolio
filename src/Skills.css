@@ -173,6 +173,17 @@
         font-family: 'Open Sans Condensed', sans-serif;
         display: list-item;
         text-align: -webkit-match-parent;
-        margin: 2%;
+         margin: 2%;
+    }
+
+    h4 {
+        line-height: 65px;
+        text-align: center;
+        font-weight: 400;
+        font-family: 'Fredericka the Great', cursive;
+        display: block;
+        font-size: 150%;
+        margin-top: 15%;
+        margin-bottom: 10%;
     }
 }

@@ -28,7 +28,7 @@ body,
     margin: 10%;
 }
 
-img {
+.card-image img {
     margin: 0%;
     height: 221px;
     width: 300px;
@@ -64,6 +64,7 @@ img {
 }
 
 .card-image {
+    margin: 0%;
     grid-area: image;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
