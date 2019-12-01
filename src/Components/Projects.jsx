@@ -16,11 +16,11 @@ class Projects extends Component {
 <div className='blockCard' >
             <div className='card' >
                <div className='card-image'>
-                  <img src="https://i.ibb.co/ZXswjwX/plans.gif" alt=""/>
+                  <img src="https://i.pinimg.com/originals/0c/a5/43/0ca5437ad727ed4520655a44cee18035.gif" alt=""/>
                </div>  
                <div className='card-text'>
                   
-                    <h5>Lab Notes</h5>  
+                    <h5>Plans</h5>  
                     <p> Que no se te vayan las ideas!  <br></br>
                         Notas a donde quiera que vayas </p> 
                     <span className='date'>
@@ -30,7 +30,7 @@ class Projects extends Component {
                 </div> 
                 <div className='card-stats'>
                 <div className='stat'>
-                    <div className='type'>Repo</div>
+                    {/* <div className='type'>Repo</div> */}
                     {/* <div className='type'>read</div> */}
                 
                 </div> 
@@ -45,7 +45,7 @@ class Projects extends Component {
             
             </div>  
             <div className='stat'>
-                    <div className='type'>DEMO</div>
+                    {/* <div className='type'>DEMO</div> */}
                     {/* <div className='type'>read</div> */}
                 
                 </div> 
@@ -56,12 +56,12 @@ class Projects extends Component {
 
             <div className='card' >
                <div className='card-image'>
-                <img src="https://i.ibb.co/c2Hbwjp/gigilgif.gif" alt=""/>    
+                <img src="https://i.pinimg.com/564x/af/a9/8c/afa98ce438d8dc2861e55353829463ac.jpg" alt=""/>    
                </div>  
                <div className='card-text'>
-               <h5>Movie Challenge</h5>   
-                    <p>Miles de peliculas y series 
-                        para que la diversion nunca termine!
+               <h5>Gigil </h5>   
+                    <p>Las mejores peliculas y series 
+                     de amor a un click!
                     </p> 
                     <span className='date'>App creada con Javascript 
                     y Css puro en menos de 3 dias !
@@ -69,7 +69,7 @@ class Projects extends Component {
                 </div> 
                 <div className='card-stats'>
                 <div className='stat'>
-                    <div className='type'>Repo</div>
+                    {/* <div className='type'>Repo</div> */}
                     {/* <div className='type'>read</div> */}
                 
                 </div> 
@@ -84,7 +84,7 @@ class Projects extends Component {
             
             </div>  
             <div className='stat'>
-                    <div className='type'>DEMO</div>
+                    {/* <div className='type'>DEMO</div> */}
                     {/* <div className='type'>read</div> */}
                 
                 </div> 
@@ -95,10 +95,10 @@ class Projects extends Component {
 
             <div className='card' >
                <div className='card-image'>
-                <img src="https://i.ibb.co/Qfm2jSx/mdlinksgiff.gif" alt=""/>
+                <img src="https://i.pinimg.com/originals/9c/9f/bb/9c9fbb6f5b0d85f83ab05d9483033736.gif" alt=""/>
                </div>  
                <div className='card-text'>
-               <h5>MD-LINKS</h5>   
+               <h5>Md-links</h5>   
                     <p>Encuentra todos los enlaces que necesitas 
                         en un texto super rapido! </p> 
                     <span className='date'>App diseñada para programadores,
@@ -106,7 +106,7 @@ class Projects extends Component {
                 </div> 
                 <div className='card-stats'>
                 <div className='stat'>
-                    <div className='type'>Repo</div>
+                    {/* <div className='type'>Repo</div> */}
                     {/* <div className='type'>read</div> */}
                 
                 </div> 
@@ -121,7 +121,7 @@ class Projects extends Component {
             
             </div>  
             <div className='stat'>
-                    <div className='type'>DEMO</div>
+                    {/* <div className='type'>DEMO</div> */}
                     {/* <div className='type'>read</div> */}
                 
                 </div> 

@@ -1,4 +1,6 @@
 
+
+
 body, #root {
   margin: 0;
   padding: 0;
@@ -43,7 +45,14 @@ body, #root {
 
 
 
-
+img{
+  margin: 0%; 
+    height: 221px;
+    width: 300px;
+    border-top-left-radius: 15px;
+  border-top-right-radius: 15px; 
+    
+}
 
 .blockCard{
   margin-top: 5%;
@@ -79,7 +88,7 @@ body, #root {
 
 .card-image{
   grid-area :image;
-  background: url('https://i.ibb.co/ZXswjwX/plans.gif');
+  
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;  
   background-size: cover;
@@ -88,9 +97,10 @@ body, #root {
 .card-text{
   grid-area : text ;
   margin: 25px;
+  
 }
 .card-text .date{
-  color: rgb(255, 7,110);
+  color:  #05015a;
   font-size: 13px;
 }
 
@@ -106,7 +116,7 @@ grid-template-columns: 1fr 1fr 1fr ;
 grid-template-rows: 1fr;
 border-bottom-left-radius: 15px;
 border-bottom-right-radius: 15px;
-background: rgb(255, 7,110);
+background: #b5fafb;
 
 }
 .card-stats .stat{
@@ -122,6 +132,7 @@ background: rgb(255, 7,110);
   font-size: 12px;
   font-weight: 300;
   text-transform: uppercase;
+  color: #2a3132;
 
 }
 
@@ -145,10 +156,12 @@ background: rgb(255, 7,110);
   }
 
   p {
+    font-family: 'Open Sans Condensed', sans-serif;
      margin-block-start: 2em; 
      margin-block-end: 2em; 
      margin-inline-start: 0px; 
      margin-inline-end: 0px; 
+     color: #1e1f26;
 }
 
 
@@ -215,12 +228,13 @@ background: rgb(255, 7,110);
 }
 
 h5 {
-  font-family: 'Cinzel', serif;
+  font-family: 'Fredericka the Great', cursive;
   align-items: center;
-  font-size: 120%;
+  font-size: 195%;
   justify-items: center;
   text-align: center;
   font-weight: 200;
   margin: 0%;
   padding: 0%;
+  color: black;
 }

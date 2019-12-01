@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
+
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Open+Sans+Condensed:300&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
 
@@ -17,7 +19,7 @@
     
     }
     h2 {
-        font-family: 'Open Sans Condensed', sans-serif;
+        font-family: 'Fredericka the Great', cursive;
         align-items: center; 
         font-size: 400%;
         justify-items: center;
@@ -82,7 +84,7 @@
         margin: 0 auto;
         margin-top: 10%;
     }
-    .myPhoto img{
+    .myPhoto{
         display: flex;
         flex-direction: column;
         
@@ -102,7 +104,7 @@
         line-height : 65px;
         width: 70%;
         float: center;
-        font-family: 'Julius Sans One', sans-serif;
+        font-family: 'Fredericka the Great', cursive;
         font-size: 50px;
         text-align: center;
         font-weight: 400;
@@ -111,7 +113,7 @@
         padding: 0%;
     }
     
-    img{
+    .blockMe img{
         margin: 10%;
         height: 420px;
         width: 310px;
