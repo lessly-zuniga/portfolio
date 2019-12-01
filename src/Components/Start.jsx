@@ -12,21 +12,20 @@ class Start extends Component {
 
   render() {
     return (
-        <Fragment>
-         
+      <Fragment>
 
-        <div className='coverHero' >
-          <div class="title">
-           <h1>Lesly <br/></h1>
-         </div>            
-        </div>  
-
-      <Profile/>
-      <Projects/>
-      <Skills/>
-      <ContactMe/>
-
-    </Fragment>
+          <div className='coverHero'>
+              <div class="title">
+                  <h1>Lesly <br/></h1>
+              </div>
+          </div>
+      
+          <Profile/>
+          <Projects/>
+          <Skills/>
+          <ContactMe/>
+      
+       </Fragment>
     );
   }
 }

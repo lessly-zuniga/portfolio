@@ -1,284 +1,198 @@
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
-@media (min-width: 300px) and (max-width: 820px){
- 
+@media (min-width: 300px) and (max-width: 820px) {
   ul {
-    margin: 0%;
-    padding: 0%;
-  
-    /* display: block; */
-    /* list-style-type: disc; */
-    /* margin-block-start: 1em; */
-    /* margin-block-end: 1em; */
-    /* margin-inline-start: 0px; */
-    /* margin-inline-end: 10%; */
-    /* padding-inline-start: 10%; */
-}
-    .Navbar {
-      
+      margin: 0%;
+      padding: 0%;
+  }
+  .Navbar {
       margin: 0%;
       background-color: antiquewhite;
       flex-wrap: wrap;
-      /* align-self: center; */
-      /* flex-direction: row; */
       align-items: center;
       display: flex;
       position: fixed;
-      
       top: 5;
       width: 100%;
       height: 100%;
-      /* background-size: cover; */
   }
-      .thx{
-        position: fixed;
-        
-        transform:translateX(-50%);
-        bottom: 15px;
-      }
-      nav {
-        /* width: 100%; */
-        /* position: fixed; */
-        /* top: 100px; */
-        /* text-align: center; */
-        /* z-index: 100000000; */
-        /* box-shadow: 5px 5px 115px rgb(0, 0,0); */
-    }
-      
-      nav li > a{
-        font-family:  roboto;
-        font-weight: 500;
-        text-transform: uppercase;
-        text-decoration: none;
-        color: #16151b;
-        margin: 0 1px;
-        font-size: 15px;
-        letter-spacing: 1px;
-        position: relative;
-        display: inline-block;
-    }
-      
-      nav li > a:before{
-        content:'';
-        position: absolute;
-        width: 100%;
-        height: 3px;
-        background:#16151b;
-        top:47%;
-        animation:out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
-      }
-      nav li > a:hover:before{
-        animation:in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
-      
-      }
-      @keyframes in{
-        0%{
+  .thx {
+      position: fixed;
+      transform: translateX(-50%);
+      bottom: 15px;
+  }
+  nav li > a {
+      font-family: roboto;
+      font-weight: 500;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #16151b;
+      margin: 0 1px;
+      font-size: 15px;
+      letter-spacing: 1px;
+      position: relative;
+      display: inline-block;
+  }
+  nav li > a:before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 3px;
+      background: #16151b;
+      top: 47%;
+      animation: out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+  }
+  nav li > a:hover:before {
+      animation: in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+  }
+  @keyframes in {
+      0% {
           width: 0;
-          
-          right:auto;
-        }
-        100%{
-         
-          right:auto;
+          right: auto;
+      }
+      100% {
+          right: auto;
           width: 100%;
-        }
       }
-      @keyframes out{
-        0%{
-          width:100%;
-          
+  }
+  @keyframes out {
+      0% {
+          width: 100%;
           right: 0;
-        }
-        100%{
+      }
+      100% {
           width: 0;
-          
           right: 0;
-        }
       }
-      @keyframes show{
-        0%{
-          opacity:0;
-          transform:translateY(-10px);
-        }
-        100%{
-          opacity:1;
-          transform:translateY(0);
-        }
+  }
+  @keyframes show {
+      0% {
+          opacity: 0;
+          transform: translateY(-10px);
       }
-      
-      .Navbar {
-        flex-wrap: nowrap;
-        /* width: 52%; */
-        /* margin-left: 25%; */
-        display: right;
-        position: fixed;
-        justify-content: center;
-        /* top: -1px; */
-        /* text-align: right; */
-        height: 5rem;
-        z-index: 100000;
-    }
-    
-      a {
-        display: block;
-     }
-     li {
-        display: block;
-     } 
-
-    }
-  
-    .Navbar {
-      /* width: 70%; */
-      /* margin-left: 14%; */
+      100% {
+          opacity: 1;
+          transform: translateY(0);
+      }
+  }
+  .Navbar {
+      flex-wrap: nowrap;
       display: right;
       position: fixed;
-      /* justify-content: right; */
-      top: -1px;
-      /* text-align: right; */
+      justify-content: center;
       height: 5rem;
       z-index: 100000;
   }
-
   a {
-    display: block;
- }
- li {
-    display: block;
- }
+      display: block;
+  }
+  li {
+      display: block;
+  }
+}
 
+.Navbar {
+  display: right;
+  position: fixed;
+  top: -1px;
+  height: 5rem;
+  z-index: 100000;
+}
 
+a {
+  display: block;
+}
 
-
-
-
-
+li {
+  display: block;
+}
 
 @media (min-width: 821px) {
-
-
- 
   ul {
-    margin: 0%;
-    padding: 0%;
-  
-    /* display: block; */
-    /* list-style-type: disc; */
-    /* margin-block-start: 1em; */
-    /* margin-block-end: 1em; */
-    /* margin-inline-start: 0px; */
-    /* margin-inline-end: 10%; */
-    /* padding-inline-start: 10%; */
-}
-    .Navbar {
-      
+      margin: 0%;
+      padding: 0%;
+  }
+  .Navbar {
       margin: 0%;
       background-color: antiquewhite;
       flex-wrap: wrap;
-      /* align-self: center; */
-      /* flex-direction: row; */
       align-items: center;
       display: flex;
       position: fixed;
-      
       top: 5;
       width: 100%;
       height: 100%;
-      /* background-size: cover; */
   }
-      .thx{
-        position: fixed;
-        
-        transform:translateX(-50%);
-        bottom: 15px;
-      }
-      nav {
-        /* width: 100%; */
-        /* position: fixed; */
-        /* top: 100px; */
-        /* text-align: center; */
-        /* z-index: 100000000; */
-        /* box-shadow: 5px 5px 115px rgb(0, 0,0); */
-    }
-      
-      nav li > a{
-        font-family: 'Fredericka the Great', cursive;
-        font-weight:600;
-        text-transform:uppercase;
-        text-decoration:none;
-        color: #16151b;
-        margin:0 15px;
-        font-size:20px;
-        letter-spacing:9px;
-        position:relative;
-        display:inline-block;
-      }
-      
-      nav li > a:before{
-        content:'';
-        position: absolute;
-        width: 100%;
-        height: 3px;
-        background:#16151b;
-        top:47%;
-        animation:out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
-      }
-      nav li > a:hover:before{
-        animation:in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
-      
-      }
-      @keyframes in{
-        0%{
+  .thx {
+      position: fixed;
+      transform: translateX(-50%);
+      bottom: 15px;
+  }
+  nav li > a {
+      font-family: 'Fredericka the Great', cursive;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #16151b;
+      margin: 0 15px;
+      font-size: 20px;
+      letter-spacing: 9px;
+      position: relative;
+      display: inline-block;
+  }
+  nav li > a:before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 3px;
+      background: #16151b;
+      top: 47%;
+      animation: out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+  }
+  nav li > a:hover:before {
+      animation: in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+  }
+  @keyframes in {
+      0% {
           width: 0;
-          
-          right:auto;
-        }
-        100%{
-         
-          right:auto;
+          right: auto;
+      }
+      100% {
+          right: auto;
           width: 100%;
-        }
       }
-      @keyframes out{
-        0%{
-          width:100%;
-          
+  }
+  @keyframes out {
+      0% {
+          width: 100%;
           right: 0;
-        }
-        100%{
+      }
+      100% {
           width: 0;
-          
           right: 0;
-        }
       }
-      @keyframes show{
-        0%{
-          opacity:0;
-          transform:translateY(-10px);
-        }
-        100%{
-          opacity:1;
-          transform:translateY(0);
-        }
+  }
+  @keyframes show {
+      0% {
+          opacity: 0;
+          transform: translateY(-10px);
       }
-      
-      .Navbar {
-        background-color: antiquewhite;
-        /* width: 52%; */
-        /* margin-left: 25%; */
-        display: right;
-        position: fixed;
-        justify-content: center;
-        /* top: -1px; */
-        /* text-align: right; */
-        height: 5rem;
-        z-index: 100000;
-    }
-    
-      a {
-        display: block;
-     }
-     li {
-        display: block;
-     } 
-
-    }
+      100% {
+          opacity: 1;
+          transform: translateY(0);
+      }
+  }
+  .Navbar {
+      background-color: antiquewhite;
+      display: right;
+      position: fixed;
+      justify-content: center;
+      height: 5rem;
+      z-index: 100000;
+  }
+  a {
+      display: block;
+  }
+  li {
+      display: block;
+  }
+}
